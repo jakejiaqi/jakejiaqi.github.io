@@ -5,6 +5,7 @@ url:              https://jakejiaqi.github.io # 域名
 signoff:          "Jake" # Your name
 facebook_appid:   #
 google_analytics: UA-174896474-1
+baidu_key:        816152e003142f5c6b66f5167cc666bb
 share:            true 
 # 分页
 paginate: 6

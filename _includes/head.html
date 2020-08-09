@@ -65,5 +65,17 @@ LLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiibbbbbbbbbbbbbbbb       eeeeeeeeeeeeee   rrrrrrr 
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId={{ site.facebook_appid }}";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+</script>
+{% endif %}
+{% if site.baidu_key %}
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?{{site.baidu_key}}";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 {% endif %}
